@@ -9,7 +9,7 @@
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "SetUpFixture"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
     "ports": [
@@ -33,7 +33,7 @@
     "type": "br.ufsc.leb.uid.scenario.UserInput",
     "id": "d95cf371-4730-cdbf-baa7-f7703ef06899",
     "x": 576,
-    "y": 827,
+    "y": 826,
     "width": 52.34375,
     "height": 21.1875,
     "alpha": 1,
@@ -60,7 +60,7 @@
     "id": "1c55e4b8-28ec-50c0-7b99-e79df5958257",
     "x": 580,
     "y": 861,
-    "width": 57.859375,
+    "width": 58.25,
     "height": 21.1875,
     "alpha": 1,
     "userData": {
@@ -86,7 +86,7 @@
     "id": "4c7e56f3-169f-22ff-a44a-67153ee1ab69",
     "x": 583,
     "y": 895,
-    "width": 99.015625,
+    "width": 99.421875,
     "height": 21.1875,
     "alpha": 1,
     "userData": {
@@ -112,7 +112,7 @@
     "id": "2dde8a9f-e673-9446-c7bd-369402fb8425",
     "x": 584,
     "y": 926,
-    "width": 43.40625,
+    "width": 43.796875,
     "height": 21.1875,
     "alpha": 1,
     "userData": {
@@ -165,7 +165,7 @@
     "x": 516,
     "y": 827,
     "width": 45.203125,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -191,7 +191,7 @@
     "x": 483,
     "y": 860,
     "width": 101,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -217,7 +217,7 @@
     "x": 459,
     "y": 893,
     "width": 110,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -243,7 +243,7 @@
     "x": 465,
     "y": 927,
     "width": 101,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -269,7 +269,7 @@
     "x": 518,
     "y": 959,
     "width": 43,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -425,7 +425,7 @@
     "x": 468,
     "y": 1053,
     "width": 70,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -451,7 +451,7 @@
     "x": 589,
     "y": 1055,
     "width": 75,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -477,7 +477,7 @@
     "x": 475,
     "y": 1085,
     "width": 73,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -503,7 +503,7 @@
     "x": 592,
     "y": 1088,
     "width": 72,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -529,7 +529,7 @@
     "x": 521,
     "y": 1130,
     "width": 84,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -555,7 +555,7 @@
     "x": 549,
     "y": 794,
     "width": 43.875,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -581,7 +581,7 @@
     "x": 438,
     "y": 994,
     "width": 175,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -637,7 +637,7 @@
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "ATMFixture"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
     "ports": [
@@ -663,7 +663,7 @@
     "x": 558,
     "y": 642,
     "width": 43,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -689,7 +689,7 @@
     "x": 505,
     "y": 681,
     "width": 159,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -719,7 +719,7 @@
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "ATMFixture1"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
     "ports": [
@@ -749,7 +749,7 @@
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": "operacao"
+      "model": "ATMFixture1"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
     "composite": "f0684049-ee16-cb3e-838a-601903791e69",
@@ -775,7 +775,7 @@
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "ATMFixture2"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
     "ports": [
@@ -801,7 +801,7 @@
     "x": 557,
     "y": 444,
     "width": 43,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -824,14 +824,14 @@
   {
     "type": "br.ufsc.leb.uid.scenario.Interacao",
     "id": "f538caeb-9650-a1b1-4aaa-23584268ed43",
-    "x": 543,
-    "y": 323,
+    "x": 542,
+    "y": 324,
     "width": 67.671875,
     "height": 59,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "ATMFixture3"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
     "ports": [
@@ -854,8 +854,8 @@
   {
     "type": "br.ufsc.leb.uid.scenario.UserInput",
     "id": "66239bbe-3bc7-b4d7-b146-e20e301ca07a",
-    "x": 566,
-    "y": 341,
+    "x": 565,
+    "y": 342,
     "width": 43,
     "height": 21.1875,
     "alpha": 1,
@@ -881,13 +881,13 @@
     "type": "br.ufsc.leb.uid.scenario.Interacao",
     "id": "44f05fca-2c02-ef35-61b7-e0631ef2632d",
     "x": 538,
-    "y": 230,
+    "y": 231,
     "width": 78,
     "height": 59,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "ATMFixture4"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
     "ports": [
@@ -911,9 +911,9 @@
     "type": "br.ufsc.leb.uid.scenario.SystemOutput",
     "id": "57a49c7a-610a-929d-efe8-6263d3e3b753",
     "x": 560,
-    "y": 248,
+    "y": 249,
     "width": 43.21875,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -943,7 +943,7 @@
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "ATMFixture5"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
     "ports": [
@@ -968,7 +968,7 @@
     "id": "cce439a9-cb11-8680-5ca8-f1284bde5f38",
     "x": 555,
     "y": 153,
-    "width": 43.40625,
+    "width": 43.796875,
     "height": 21.1875,
     "alpha": 1,
     "userData": {
@@ -999,7 +999,7 @@
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "ATMFixture6"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
     "ports": [
@@ -1020,7 +1020,7 @@
     "x": 519,
     "y": 29.203125,
     "width": 145,
-    "height": 21.59375,
+    "height": 22,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -1033,7 +1033,7 @@
     "color": "#FFFFFF",
     "stroke": 1,
     "radius": 0,
-    "text": "Operacao realizada com sucesso! Retire o dinheiro na bandeja.",
+    "text": "Operação realizada com sucesso! Retire o dinheiro na bandeja.",
     "outlineStroke": 0,
     "outlineColor": "none",
     "fontSize": 12,
