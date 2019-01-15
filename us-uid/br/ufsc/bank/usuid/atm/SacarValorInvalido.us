@@ -1,0 +1,1051 @@
+[
+  {
+    "type": "br.ufsc.leb.uid.scenario.Interacao",
+    "id": "94dc6c7a-0381-3025-8e85-44ecb18b8eaf",
+    "x": 415,
+    "y": 45,
+    "width": 241,
+    "height": 72,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "ATMValorEntradaFixture"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
+    "ports": [
+      {
+        "name": "input0",
+        "port": "draw2d.InputPort",
+        "locator": "br.ufsc.leb.uid.scenario.TargetLocator"
+      }
+    ],
+    "bgColor": "#F0F0F0",
+    "color": "#333333",
+    "stroke": 1,
+    "radius": 500
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "35347413-bef2-fb40-8f30-50b7f7f5e681",
+    "x": 457.984375,
+    "y": 69,
+    "width": 185,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "retornoOperacao"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "94dc6c7a-0381-3025-8e85-44ecb18b8eaf",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "O valor informado e invalido!",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.Interacao",
+    "id": "7f19c63e-2ffa-94a9-5868-367cb65037f5",
+    "x": 478,
+    "y": 160,
+    "width": 116,
+    "height": 59,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "ATMValorInvalidoEntradaFixture"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
+    "ports": [
+      {
+        "name": "output0",
+        "port": "draw2d.OutputPort",
+        "locator": "br.ufsc.leb.uid.scenario.ResourceLocator"
+      },
+      {
+        "name": "input0",
+        "port": "draw2d.InputPort",
+        "locator": "br.ufsc.leb.uid.scenario.TargetLocator"
+      }
+    ],
+    "bgColor": "#F0F0F0",
+    "color": "#333333",
+    "stroke": 1,
+    "radius": 500
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "0cfede29-7349-c524-e4aa-b92f965835a0",
+    "x": 523,
+    "y": 177,
+    "width": 43,
+    "height": 21.1875,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "valorSacar"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "7f19c63e-2ffa-94a9-5868-367cb65037f5",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "radius": 0,
+    "text": "31",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.Interacao",
+    "id": "6d2e3c19-72b4-9e52-3b12-6deeca4e35fd",
+    "x": 495,
+    "y": 264,
+    "width": 78,
+    "height": 59,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "ATMValorFixture"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
+    "ports": [
+      {
+        "name": "output0",
+        "port": "draw2d.OutputPort",
+        "locator": "br.ufsc.leb.uid.scenario.ResourceLocator"
+      },
+      {
+        "name": "input0",
+        "port": "draw2d.InputPort",
+        "locator": "br.ufsc.leb.uid.scenario.TargetLocator"
+      }
+    ],
+    "bgColor": "#F0F0F0",
+    "color": "#333333",
+    "stroke": 1,
+    "radius": 500
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "bcc777ef-1dd9-97b9-8fee-87cb9232d754",
+    "x": 518,
+    "y": 280,
+    "width": 43,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "6d2e3c19-72b4-9e52-3b12-6deeca4e35fd",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "valor",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.Interacao",
+    "id": "edf960aa-104f-bedb-fcfe-03682f432814",
+    "x": 501,
+    "y": 373,
+    "width": 67.671875,
+    "height": 59,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "ATMMenuSacarFixture"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
+    "ports": [
+      {
+        "name": "output0",
+        "port": "draw2d.OutputPort",
+        "locator": "br.ufsc.leb.uid.scenario.ResourceLocator"
+      },
+      {
+        "name": "input0",
+        "port": "draw2d.InputPort",
+        "locator": "br.ufsc.leb.uid.scenario.TargetLocator"
+      }
+    ],
+    "bgColor": "#F0F0F0",
+    "color": "#333333",
+    "stroke": 1,
+    "radius": 500
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "3759bfd6-0613-a2a2-469c-c5e8c9f32df9",
+    "x": 519,
+    "y": 391,
+    "width": 43,
+    "height": 21.1875,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "operacao"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "edf960aa-104f-bedb-fcfe-03682f432814",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "radius": 0,
+    "text": "sacar",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.Interacao",
+    "id": "e064558e-c426-d075-474a-7d73e3f2d907",
+    "x": 399,
+    "y": 476,
+    "width": 272,
+    "height": 95,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "ATMMenuFixture"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
+    "ports": [
+      {
+        "name": "output0",
+        "port": "draw2d.OutputPort",
+        "locator": "br.ufsc.leb.uid.scenario.ResourceLocator"
+      },
+      {
+        "name": "input0",
+        "port": "draw2d.InputPort",
+        "locator": "br.ufsc.leb.uid.scenario.TargetLocator"
+      }
+    ],
+    "bgColor": "#F0F0F0",
+    "color": "#333333",
+    "stroke": 1,
+    "radius": 500
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "c4042596-93de-302c-15cd-8677e11dc258",
+    "x": 509,
+    "y": 493,
+    "width": 43,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "e064558e-c426-d075-474a-7d73e3f2d907",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "sacar",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "c45c473f-b4b8-8622-ba56-fa05bfab4101",
+    "x": 476,
+    "y": 520,
+    "width": 160,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "e064558e-c426-d075-474a-7d73e3f2d907",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "simular financiamento",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.Interacao",
+    "id": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "x": 308,
+    "y": 615,
+    "width": 454,
+    "height": 459,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "SetUpFixture"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Interacao",
+    "ports": [
+      {
+        "name": "output0",
+        "port": "draw2d.OutputPort",
+        "locator": "br.ufsc.leb.uid.scenario.ResourceLocator"
+      }
+    ],
+    "bgColor": "#F0F0F0",
+    "color": "#333333",
+    "stroke": 1,
+    "radius": 500
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "dd1f4d51-90da-0159-24d4-3acf8da7f85d",
+    "x": 500,
+    "y": 634,
+    "width": 43.875,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "SetUp",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "16010c44-7200-50f7-34b1-26da4ebf63bc",
+    "x": 493,
+    "y": 672,
+    "width": 45.203125,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "cliente",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "8190a9f1-43f7-58b6-67d4-bb4964f7817a",
+    "x": 452,
+    "y": 703,
+    "width": 100,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "conta corrente",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "df0a9ffe-593e-f309-4035-e80607ce9fb1",
+    "x": 438,
+    "y": 732,
+    "width": 115,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "numero do cartao",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "92255a7d-5180-142f-0387-88ddb0519d14",
+    "x": 442,
+    "y": 762,
+    "width": 101,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "senha do cartao",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "625f85c2-695c-be2d-3b9b-d07d09d2eb60",
+    "x": 496,
+    "y": 792,
+    "width": 43,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "saldo",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "bdddae61-9643-e4e5-4daa-7680ff19c546",
+    "x": 394,
+    "y": 853,
+    "width": 185,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "numero de vezes que errou a senha nas ultimas 72 horas",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "97332afe-f227-cde8-4edb-07f3e9977d67",
+    "x": 384,
+    "y": 928,
+    "width": 43,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "notas de 5",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "4336cbdc-a162-0e24-8169-8ef28cd717b9",
+    "x": 502,
+    "y": 929,
+    "width": 43,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "notas de 10",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "a19a19eb-256e-8cf0-cbcd-bf5e6745d964",
+    "x": 629,
+    "y": 930,
+    "width": 43,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "notas de 20",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "9a204cad-f55a-09ad-4141-7fdbfc83cd9d",
+    "x": 446,
+    "y": 979,
+    "width": 43,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "notas de 50",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.SystemOutput",
+    "id": "45dec160-2228-74cc-49e0-ea2391bff842",
+    "x": 563,
+    "y": 983,
+    "width": 48,
+    "height": 22,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#FFFFFF",
+    "stroke": 1,
+    "radius": 0,
+    "text": "notas de 100",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#000000",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "5c8a2b4f-332e-da39-9fb7-4be0c46e81a3",
+    "x": 552,
+    "y": 672,
+    "width": 52.34375,
+    "height": 21.1875,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "nomeCliente"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "radius": 0,
+    "text": "J. F.Piper",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "1dbb8fc4-0779-b68a-aa14-161ac1ea48ba",
+    "x": 552,
+    "y": 703,
+    "width": 58.25,
+    "height": 21.1875,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "contaCorrenteCliente"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "radius": 0,
+    "text": "125654-08",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "60992c8e-81ab-e918-2235-1e24125bb6ee",
+    "x": 551,
+    "y": 732,
+    "width": 99.421875,
+    "height": 21.1875,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "numeroCartaoCliente"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "radius": 0,
+    "text": "9988776655443322",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "88e4b5a9-3687-85f5-f965-f01b858ec3f0",
+    "x": 552,
+    "y": 762,
+    "width": 43.796875,
+    "height": 21.1875,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "senhaCartaoCliente"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "radius": 0,
+    "text": "123456",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "7c3a1b41-be1a-76e2-0b6f-ef6f843afc36",
+    "x": 553,
+    "y": 792,
+    "width": 43,
+    "height": 21.1875,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "saldoContaCorrenteCliente"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "radius": 0,
+    "text": "90.00",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "a2a11a5e-45f8-3b9e-b3c5-2a962296f8c3",
+    "x": 589,
+    "y": 863,
+    "width": 43,
+    "height": 21.1875,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "nuErrosSenha"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "radius": 0,
+    "text": "0",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "17b6be37-96f4-131d-a807-9f899b276c09",
+    "x": 435,
+    "y": 936,
+    "width": 43,
+    "height": 21.1875,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "notasDe5"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "radius": 0,
+    "text": "0",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "f35bc224-6ebd-5368-6c3c-bc4631e72dee",
+    "x": 556,
+    "y": 938,
+    "width": 43,
+    "height": 21.1875,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "notasDe10"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "radius": 0,
+    "text": "200",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "ce527721-16d6-be2e-2873-d64a3b128704",
+    "x": 673,
+    "y": 938,
+    "width": 43,
+    "height": 21.1875,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "notasDe20"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "radius": 0,
+    "text": "0",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "781db35c-2065-92a1-24e4-30f86659540f",
+    "x": 497,
+    "y": 990,
+    "width": 43,
+    "height": 21.1875,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "notasDe50"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "radius": 0,
+    "text": "150",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.UserInput",
+    "id": "07bab0ae-b9f7-ec5a-d896-703552b9f258",
+    "x": 620,
+    "y": 991,
+    "width": 43,
+    "height": 21.1875,
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": "notasDe100"
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
+    "composite": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+    "ports": [],
+    "bgColor": "none",
+    "color": "#1B1B1B",
+    "stroke": 1,
+    "radius": 0,
+    "text": "110",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "fontSize": 12,
+    "fontColor": "#080808",
+    "fontFamily": null
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.Transaction",
+    "id": "50b296e6-c5a5-98f8-fec2-abc1d22fe4bf",
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Transaction",
+    "stroke": 1,
+    "color": "#1B1B1B",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "policy": "draw2d.policy.line.LineSelectionFeedbackPolicy",
+    "router": "draw2d.layout.connection.DirectRouter",
+    "radius": 2,
+    "source": {
+      "node": "7f19c63e-2ffa-94a9-5868-367cb65037f5",
+      "port": "output0"
+    },
+    "target": {
+      "node": "94dc6c7a-0381-3025-8e85-44ecb18b8eaf",
+      "port": "input0"
+    }
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.Transaction",
+    "id": "041f5b98-3bdb-db74-7e7f-3fa075920555",
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Transaction",
+    "stroke": 1,
+    "color": "#1B1B1B",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "policy": "draw2d.policy.line.LineSelectionFeedbackPolicy",
+    "router": "draw2d.layout.connection.DirectRouter",
+    "radius": 2,
+    "source": {
+      "node": "6d2e3c19-72b4-9e52-3b12-6deeca4e35fd",
+      "port": "output0"
+    },
+    "target": {
+      "node": "7f19c63e-2ffa-94a9-5868-367cb65037f5",
+      "port": "input0"
+    }
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.Transaction",
+    "id": "38ac992a-42d4-e1d8-d552-6b8614cebb58",
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Transaction",
+    "stroke": 1,
+    "color": "#1B1B1B",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "policy": "draw2d.policy.line.LineSelectionFeedbackPolicy",
+    "router": "draw2d.layout.connection.DirectRouter",
+    "radius": 2,
+    "source": {
+      "node": "edf960aa-104f-bedb-fcfe-03682f432814",
+      "port": "output0"
+    },
+    "target": {
+      "node": "6d2e3c19-72b4-9e52-3b12-6deeca4e35fd",
+      "port": "input0"
+    }
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.Transaction",
+    "id": "a7bded59-4d34-6e68-6143-695cbcb03894",
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Transaction",
+    "stroke": 1,
+    "color": "#1B1B1B",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "policy": "draw2d.policy.line.LineSelectionFeedbackPolicy",
+    "router": "draw2d.layout.connection.DirectRouter",
+    "radius": 2,
+    "source": {
+      "node": "e064558e-c426-d075-474a-7d73e3f2d907",
+      "port": "output0"
+    },
+    "target": {
+      "node": "edf960aa-104f-bedb-fcfe-03682f432814",
+      "port": "input0"
+    }
+  },
+  {
+    "type": "br.ufsc.leb.uid.scenario.Transaction",
+    "id": "721ebb31-1018-8bfd-c5b2-bbfc03e7c343",
+    "alpha": 1,
+    "userData": {
+      "result": "",
+      "model": ""
+    },
+    "cssClass": "br_ufsc_leb_uid_scenario_Transaction",
+    "stroke": 1,
+    "color": "#1B1B1B",
+    "outlineStroke": 0,
+    "outlineColor": "none",
+    "policy": "draw2d.policy.line.LineSelectionFeedbackPolicy",
+    "router": "draw2d.layout.connection.DirectRouter",
+    "radius": 2,
+    "source": {
+      "node": "6bb0ba4a-aed4-9737-e7c3-6046770fccef",
+      "port": "output0"
+    },
+    "target": {
+      "node": "e064558e-c426-d075-474a-7d73e3f2d907",
+      "port": "input0"
+    }
+  }
+]

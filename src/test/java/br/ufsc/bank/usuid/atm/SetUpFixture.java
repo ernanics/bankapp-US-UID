@@ -1,5 +1,11 @@
 package br.ufsc.bank.usuid.atm;
 
+import java.util.ArrayList;
+import java.util.Date;
+
+import br.ufsc.bank.usuid.ATMFeature;
+import br.ufsc.bank.usuid.SacarFeature;
+import br.ufsc.model.PinHistory;
 import net.douglashiura.us.Fixture;
 
 @Fixture("SetUpFixture")
@@ -9,20 +15,37 @@ public class SetUpFixture {
 	public String contaCorrenteCliente;
 	public String numeroCartaoCliente;
 	public int senhaCartaoCliente;
-	public Double saldoContaCorrenteCliente;
-	public int nuErrosSenha;
-	public int notasDe5;
-	public int notasDe10;
-	public int notasDe20;
-	public int notasDe50;
-	public int notasDe100;
+	public Double saldoContaCorrenteCliente=0.0;
+	public int nuErrosSenha=0;
+	public int notasDe5=0;
+	public int notasDe10=0;
+	public int notasDe20=0;
+	public int notasDe50=0;
+	public int notasDe100=0;
+	public int primeiraSenhaErrada=0;
+	public boolean isCartaoBloqueado=false;
 	
+	public void setIsCartaoBloqueado(boolean isCartaoBloqueado) {
+		try {
+			ATMFeature.atm.getBank().getCardByNumber(this.numeroCartaoCliente).setBlocked(isCartaoBloqueado);
+			if (isCartaoBloqueado == false) {
+				//Limpar histórico
+				ATMFeature.atm.getBank().getCardByNumber(this.numeroCartaoCliente).setPinHistory(new ArrayList<PinHistory>());
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
 	public void SetUpFixture() {
 		System.out.println("SetUpFixture");
 	}
 	
+	public void setPrimeiraSenhaErrada(int primeiraSenhaErrada) {
+		this.primeiraSenhaErrada = primeiraSenhaErrada;
+	}
+	
 	public void setNomeCliente(String nomeCliente) {
-		System.out.println("nomeCliente");
 		this.nomeCliente = nomeCliente;
 	}
 
@@ -66,7 +89,17 @@ public class SetUpFixture {
 		this.notasDe100 = notasDe100;
 	}
 
-	public void toATMFixture() {
-		System.out.println("next");
+	public void toATMMenuFixture() {
+		ATMFeature.atm.getBank().createBankCustomer(1, this.nomeCliente, this.numeroCartaoCliente, this.senhaCartaoCliente, this.contaCorrenteCliente, this.saldoContaCorrenteCliente);
+		ATMFeature.atm.chargeBills(this.notasDe5, this.notasDe10, this.notasDe20, this.notasDe50, this.notasDe100);
+		
+		for (int i=1; i<=this.nuErrosSenha; i++) {
+			try {
+				ATMFeature.atm.getBank().getCardByNumber(this.numeroCartaoCliente).insertPinHistory(false, new Date(new Date().getTime()-(this.primeiraSenhaErrada*3600000)));
+				SacarFeature.numeroDoCartao = this.numeroCartaoCliente;
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
 	}
 }

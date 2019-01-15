@@ -52,7 +52,7 @@ public class ATM {
 		Card card = customer.getCardByCardNumber(cardNumber);
 		
 		if (card.isBlocked()){
-			throw new Exception("Este cartão está bloqueado!");
+			throw new Exception("Este cartao esta bloqueado!");
 		}
 		
 		//Check bills
@@ -62,16 +62,16 @@ public class ATM {
 		//Check PIN
 		if (!this.checkPIN(card, pin)){
 			if(card.getNumberOfIncorrectPasswordWithin72hrs()==1){
-				throw new Exception("Senha inválida!");
+				throw new Exception("Senha invalida!");
 			}
 			if(card.getNumberOfIncorrectPasswordWithin72hrs()==2){
 				long time = (new Date().getTime())-(card.getDateOfLastIncorrectPassword().getTime());
 				time = (72*3600000)- time;
 				
-				throw new Exception("Senha inválida! Você tem mais uma tentativa nas próximas " + card.getTimeToExpireWrongPassword() + " horas, do contário, seu cartão será bloqueado por motivos de segurança.");
+				throw new Exception("Senha invalida! Voce tem mais uma tentativa nas proximas " + card.getTimeToExpireWrongPassword() + " horas, do contrario, seu cartao sera bloqueado por motivos de seguranca.");
 			}
 			if(card.getNumberOfIncorrectPasswordWithin72hrs()>2){
-				throw new Exception("Senha inválida! Seu cartão foi bloqueado por motivos de segurança! Entre em contato com a central de serviços para maiores informações.");
+				throw new Exception("Senha invalida! Seu cartao foi bloqueado por motivos de seguranca! Entre em contato com a central de servicos para maiores informacoes.");
 			}
 			
 		}
@@ -120,7 +120,7 @@ public class ATM {
 		
 		//Fail
 		if ((bill == this.getNextBill(bill))&&(partialAmount>0)&&(firstAttempt == this.getNextBill(firstAttempt))){
-			throw new Exception("O valor informado é inválido!");
+			throw new Exception("O valor informado e invalido!");
 		}
 		
 		//Try with other combination
