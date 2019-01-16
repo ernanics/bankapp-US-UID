@@ -30,7 +30,7 @@
     "x": 519,
     "y": 29.203125,
     "width": 145,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
@@ -142,11 +142,11 @@
     "x": 560,
     "y": 249,
     "width": 43.21875,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "senhaInformada"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "44f05fca-2c02-ef35-61b7-e0631ef2632d",
@@ -251,14 +251,14 @@
   {
     "type": "br.ufsc.leb.uid.scenario.SystemOutput",
     "id": "c483f676-dfec-ae0e-9379-914e9eddebc9",
-    "x": 557,
-    "y": 444,
+    "x": 556,
+    "y": 443,
     "width": 43,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "valorSacar"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "90750850-3696-434a-069e-59a4c893e8d8",
@@ -278,7 +278,7 @@
     "type": "br.ufsc.leb.uid.scenario.Interacao",
     "id": "f0684049-ee16-cb3e-838a-601903791e69",
     "x": 530,
-    "y": 525,
+    "y": 524,
     "width": 96,
     "height": 59,
     "alpha": 1,
@@ -308,13 +308,13 @@
     "type": "br.ufsc.leb.uid.scenario.UserInput",
     "id": "2d107b31-7be3-19f6-d87b-7a8e12ead438",
     "x": 555,
-    "y": 543,
+    "y": 541,
     "width": 43,
     "height": 21.1875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": "ATMFixture1"
+      "model": "sacar"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_UserInput",
     "composite": "f0684049-ee16-cb3e-838a-601903791e69",
@@ -366,11 +366,11 @@
     "x": 505,
     "y": 681,
     "width": 159,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "simularFinanciamento"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "9b54edeb-2005-eecf-c256-dbbc593a7ea5",
@@ -392,11 +392,11 @@
     "x": 558,
     "y": 642,
     "width": 43,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "sacar"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "9b54edeb-2005-eecf-c256-dbbc593a7ea5",
@@ -474,11 +474,11 @@
     "x": 438,
     "y": 994,
     "width": 175,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "nuErrosSenha"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "0be713f5-1f2f-e2a9-0c1f-dff6c9e6c662",
@@ -497,14 +497,14 @@
   {
     "type": "br.ufsc.leb.uid.scenario.SystemOutput",
     "id": "b754ab5e-733a-8f3e-7507-f4c7e80239d9",
-    "x": 549,
-    "y": 794,
-    "width": 43.875,
-    "height": 22,
+    "x": 548,
+    "y": 795,
+    "width": 43.359375,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "iniciar"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "0be713f5-1f2f-e2a9-0c1f-dff6c9e6c662",
@@ -513,7 +513,7 @@
     "color": "#FFFFFF",
     "stroke": 1,
     "radius": 0,
-    "text": "SetUp",
+    "text": "iniciar",
     "outlineStroke": 0,
     "outlineColor": "none",
     "fontSize": 12,
@@ -526,11 +526,11 @@
     "x": 521,
     "y": 1130,
     "width": 84,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "notasDe100"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "0be713f5-1f2f-e2a9-0c1f-dff6c9e6c662",
@@ -552,11 +552,11 @@
     "x": 592,
     "y": 1088,
     "width": 72,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "notasDe50"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "0be713f5-1f2f-e2a9-0c1f-dff6c9e6c662",
@@ -578,11 +578,11 @@
     "x": 475,
     "y": 1085,
     "width": 73,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "notasDe20"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "0be713f5-1f2f-e2a9-0c1f-dff6c9e6c662",
@@ -604,11 +604,11 @@
     "x": 589,
     "y": 1055,
     "width": 75,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "notasDe10"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "0be713f5-1f2f-e2a9-0c1f-dff6c9e6c662",
@@ -630,11 +630,11 @@
     "x": 468,
     "y": 1053,
     "width": 70,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "notasDe5"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "0be713f5-1f2f-e2a9-0c1f-dff6c9e6c662",
@@ -732,7 +732,7 @@
     "type": "br.ufsc.leb.uid.scenario.UserInput",
     "id": "995772a5-6f0a-d8c1-2fc1-c1c112e3116d",
     "x": 674,
-    "y": 1057,
+    "y": 1058,
     "width": 43,
     "height": 21.1875,
     "alpha": 1,
@@ -786,11 +786,11 @@
     "x": 518,
     "y": 959,
     "width": 43,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "saldoContaCorrenteCliente"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "0be713f5-1f2f-e2a9-0c1f-dff6c9e6c662",
@@ -812,11 +812,11 @@
     "x": 465,
     "y": 927,
     "width": 101,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "senhaCartaoCliente"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "0be713f5-1f2f-e2a9-0c1f-dff6c9e6c662",
@@ -838,11 +838,11 @@
     "x": 459,
     "y": 893,
     "width": 110,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "numeroCartaoCliente"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "0be713f5-1f2f-e2a9-0c1f-dff6c9e6c662",
@@ -864,11 +864,11 @@
     "x": 483,
     "y": 860,
     "width": 101,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "contaCorrenteCliente"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "0be713f5-1f2f-e2a9-0c1f-dff6c9e6c662",
@@ -890,11 +890,11 @@
     "x": 516,
     "y": 827,
     "width": 45.203125,
-    "height": 22,
+    "height": 21.421875,
     "alpha": 1,
     "userData": {
       "result": "",
-      "model": ""
+      "model": "nomeCliente"
     },
     "cssClass": "br_ufsc_leb_uid_scenario_SystemOutput",
     "composite": "0be713f5-1f2f-e2a9-0c1f-dff6c9e6c662",
@@ -991,7 +991,7 @@
   {
     "type": "br.ufsc.leb.uid.scenario.UserInput",
     "id": "1c55e4b8-28ec-50c0-7b99-e79df5958257",
-    "x": 580,
+    "x": 579,
     "y": 861,
     "width": 58.25,
     "height": 21.1875,
@@ -1017,9 +1017,9 @@
   {
     "type": "br.ufsc.leb.uid.scenario.UserInput",
     "id": "d95cf371-4730-cdbf-baa7-f7703ef06899",
-    "x": 576,
+    "x": 575,
     "y": 826,
-    "width": 52.34375,
+    "width": 52.8125,
     "height": 21.1875,
     "alpha": 1,
     "userData": {

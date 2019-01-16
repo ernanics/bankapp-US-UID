@@ -1,4 +1,4 @@
-package br.ufsc.bank.usuid.calculadora.help;
+package br.ufsc.bank.usuid.calculadora;
 
 import net.douglashiura.us.Fixture;
 

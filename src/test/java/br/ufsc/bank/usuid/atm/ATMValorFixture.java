@@ -7,4 +7,12 @@ public class ATMValorFixture {
 	public void toATMValorEntradaFixture() {
 		
 	}
+	
+	 public void toATMValorInvalidoEntradaFixture() {
+		 
+	 }
+	
+	public String getValorSacar() {
+		return "valor";
+	}
 }

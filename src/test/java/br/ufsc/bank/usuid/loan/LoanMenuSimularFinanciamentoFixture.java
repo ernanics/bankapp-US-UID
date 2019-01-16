@@ -5,11 +5,9 @@ import net.douglashiura.us.Fixture;
 @Fixture("LoanMenuSimularFinanciamentoFixture")
 public class LoanMenuSimularFinanciamentoFixture {
 	
-	public String operacao;
 	
-	public void setOperacao(String operacao) {
-		this.operacao = operacao;
-	
+	public void setSimularFinanciamento(String simularFinanciamento) {
+		
 	}
 	
 	public void toLoanEntradaValoresFixture() {

@@ -7,4 +7,12 @@ public class ATMMenuFixture {
 	public void toATMMenuSacarFixture() {
 	
 	}
+	
+	public String getSacar() {
+		return "sacar";
+	}
+	
+	public String getSimularFinanciamento() {
+		return "simular financiamento";
+	}
 }

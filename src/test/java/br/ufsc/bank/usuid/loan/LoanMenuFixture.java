@@ -7,4 +7,12 @@ public class LoanMenuFixture {
 	public void toLoanMenuSimularFinanciamentoFixture() {
 	
 	}
+	
+	public String getSacar() {
+		return "sacar";
+	}
+	
+	public String getSimularFinanciamento() {
+		return "simular financiamento";
+	}
 }
