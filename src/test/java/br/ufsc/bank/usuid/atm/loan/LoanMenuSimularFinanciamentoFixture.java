@@ -1,4 +1,4 @@
-package br.ufsc.bank.usuid.loan;
+package br.ufsc.bank.usuid.atm.loan;
 
 import net.douglashiura.us.Fixture;
 

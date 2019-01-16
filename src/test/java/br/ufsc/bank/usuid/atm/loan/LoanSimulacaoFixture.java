@@ -1,4 +1,4 @@
-package br.ufsc.bank.usuid.loan;
+package br.ufsc.bank.usuid.atm.loan;
 
 import java.math.BigDecimal;
 

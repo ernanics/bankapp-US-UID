@@ -8,6 +8,10 @@ public class ATMMenuFixture {
 	
 	}
 	
+	public void toLoanMenuSimularFinanciamentoFixture() {
+		
+	}
+	
 	public String getSacar() {
 		return "sacar";
 	}

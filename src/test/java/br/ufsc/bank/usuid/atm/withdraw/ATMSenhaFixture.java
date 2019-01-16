@@ -1,4 +1,4 @@
-package br.ufsc.bank.usuid.atm;
+package br.ufsc.bank.usuid.atm.withdraw;
 
 import net.douglashiura.us.Fixture;
 
