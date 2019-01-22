@@ -11,6 +11,8 @@ import br.ufsc.model.ATM;
 
 public class ATMTest {
 	
+	//Testes unitários
+	
 	private ATM atm;
 	
 	@Before
