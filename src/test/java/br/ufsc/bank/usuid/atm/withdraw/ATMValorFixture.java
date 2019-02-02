@@ -8,9 +8,9 @@ public class ATMValorFixture {
 		
 	}
 	
-	 public void toATMValorInvalidoEntradaFixture() {
-		 
-	 }
+	public void toATMValorInvalidoEntradaFixture() {
+		
+	}
 	
 	public String getValorSacar() {
 		return "valor";
