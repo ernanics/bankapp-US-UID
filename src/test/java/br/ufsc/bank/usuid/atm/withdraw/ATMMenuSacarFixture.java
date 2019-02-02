@@ -6,7 +6,7 @@ import net.douglashiura.us.Fixture;
 public class ATMMenuSacarFixture {
 	
 	public void setSacar(String simularFinanciamento) {
-		
+
 	}
 	
 	public void toATMValorFixture() {
